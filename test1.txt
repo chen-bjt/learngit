@@ -1,0 +1,14 @@
+
+创建版本库
+
+1、通过git init 命令把该目录变成Git可以管理的仓库
+git init
+
+2、把文件添加到版本库
+vi file.txt
+git add file.txt
+git commit -m "说明文字"
+
+git status 查看仓库当前的状态
+git diff 查看修改内容
+
